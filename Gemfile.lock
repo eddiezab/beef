@@ -42,7 +42,7 @@ GEM
     concurrent-ruby (1.1.10)
     console (1.15.3)
       fiber-local
-    curb (1.0.1)
+    curb (1.0.8)
     daemons (1.4.1)
     diff-lcs (1.5.0)
     digest (3.1.0)
