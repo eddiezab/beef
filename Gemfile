@@ -84,7 +84,7 @@ group :test do
     gem 'irb'
     gem 'pry-byebug'
     gem "websocket-client-simple", "~> 0.5.1"
-    gem "browserstack-local", "~> 1.4"
+    gem "browserstack-local", "~> 1.5"
 end
 
 source 'https://rubygems.org'
